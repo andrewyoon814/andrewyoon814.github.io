@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Starter Template - Materialize</title>
+  <title>Andrew Yoon</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -11,27 +11,32 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+  <!-- Top Header Nav and Side Nav Fixed-->
+  <div class="navbar-fixed">
+    <nav class="white">
+      <div class="nav-wrapper">
+        <a class="teal-text brand-logo center">Andrew Yoon</a>
+      </div>
+    </nav>
+  </div>
+
   <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
-      <br><br>
-      <h1 class="header center orange-text">Starter Template</h1>
+    <div class="container s4 m4 l4">
+
+      <h1 class="header center orange-text">Welcome!</h1>
+
       <div class="row center">
-        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        <div class="col s4 m4 l4 offset-s4 offset-m4 offset-l4">
+          <img src="prof.jpg" alt="" class="center-align circle responsive-img"> <!-- notice the "circle" class -->
+        </div>
+      </div>
+
+      <div class="row center">
+        <h5 class="header col s12 light">My name is Andrew Yoon and I like to code! Go down to learn a little bit more about me!</h5>
       </div>
       <div class="row center">
-        <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+        <a href="#" id="download-button" class="btn-large waves-effect waves-light z-depth-5 orange">Get Started</a>
       </div>
       <br><br>
 
@@ -80,25 +85,25 @@
     </div>
   </div>
 
-  <footer class="page-footer orange">
+  <footer class="page-footer teal">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+          <h5 class="white-text">About Me</h5>
+          <p class="grey-text text-lighten-4">I am a Rutgers-New Brunswick graduate who received his Bachelors degree in Computer Science and minor in Economics. I enjoy programming and solving problems via the skills i've learned in school. This site is to show prospective employers (and anyone else) my resume and some of the work I have done up till this point. I hope you learned more about me while viewing my work and writings! As always, please feel free to contact me!</p>
 
 
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
+        <div class="col l3 m6 s6">
+          <h5 class="white-text">Site Contents</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!" onClick="alert('Hello World!')">Link 1</a></li>
             <li><a class="white-text" href="#!">Link 2</a></li>
             <li><a class="white-text" href="#!">Link 3</a></li>
             <li><a class="white-text" href="#!">Link 4</a></li>
           </ul>
         </div>
-        <div class="col l3 s12">
+        <div class="col l3 m6 s6">
           <h5 class="white-text">Connect</h5>
           <ul>
             <li><a class="white-text" href="#!">Link 1</a></li>
@@ -111,7 +116,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      Made using <a class="red-text text-lighten-1" href="http://materializecss.com">Materialize</a>
       </div>
     </div>
   </footer>
