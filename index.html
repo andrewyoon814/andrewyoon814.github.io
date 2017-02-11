@@ -10,82 +10,132 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-<body>
 
-  <!-- Top Header Nav and Side Nav Fixed-->
-  <div class="navbar-fixed">
-    <nav class="white">
-      <div class="nav-wrapper">
-        <a class="teal-text brand-logo center">Andrew Yoon</a>
-      </div>
-    </nav>
-  </div>
+  <body class="">
 
-  <div class="section no-pad-bot" id="index-banner">
-    <div class="container s4 m4 l4">
-
-      <h1 class="header center orange-text">Welcome!</h1>
-
-      <div class="row center">
-        <div class="col s4 m4 l4 offset-s4 offset-m4 offset-l4">
-          <img src="prof.jpg" alt="" class="center-align circle responsive-img"> <!-- notice the "circle" class -->
+    <!-- Top Header Nav and Side Nav Fixed-->
+    <div class="navbar-fixed">
+      <nav class="red accent-4">
+        <div class="nav-wrapper">
+          <a class="white-text brand-logo center">Andrew Yoon</a>
         </div>
-      </div>
+      </nav>
+    </div>
 
-      <div class="row center">
-        <h5 class="header col s12 light">My name is Andrew Yoon and I like to code! Go down to learn a little bit more about me!</h5>
+    <div class="section no-pad-bot" id="index-banner">
+      <div class="container s4 m4 l4">
+
+        <h1 class="header center light">Welcome!</h1>
+
+        <div class="row center">
+          <div class="col s4 m4 l4 offset-s4 offset-m4 offset-l4">
+            <img src="images/prof.jpg"class="center-align circle responsive-img"> 
+          </div>
+        </div>
+
+        <div class="row center">
+          <h5 class="header col s12 light">My name is Andrew Yoon and I like to code! Go down to learn a little bit more about me!</h5>
+        </div>
+        <div class="row center">
+          <a href="#" id="download-button" class="btn-large waves-effect waves-light z-depth-5 red accent-4">Download Resume</a>
+        </div>
+        <br><br>
+
       </div>
-      <div class="row center">
-        <a href="#" id="download-button" class="btn-large waves-effect waves-light z-depth-5 orange">Get Started</a>
+    </div>
+
+
+    <div class="container">
+      <div class="section">
+
+        <!--   Icon Section   -->
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+              <h5 class="center">Speeds up development</h5>
+
+              <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+              <h5 class="center">User Experience Focused</h5>
+
+              <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+              <h5 class="center">Easy to work with</h5>
+
+              <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+            </div>
+          </div>
+        </div>
+
       </div>
       <br><br>
-
     </div>
-  </div>
+
+  </body>
 
 
-  <div class="container">
-    <div class="section">
+  <!-- Footer -->
+  <footer class="page-footer red accent-4" id="footHolder">
 
-      <!--   Icon Section   -->
+  <!-- FormSpree.io contact form-->
+  <section id="resources" class="valign-wrapper red accent-2">
+
+    <!-- Left side for contact info and text-->
+    <br>
+    <div class="container">
       <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+        <div class="col s12 m5">
+          <div class="row">
+            <div class="col s10 m9">
+              <h5>Contact Me!</h5>
+            </div>
           </div>
+          <p>
+            Do you have a possible job offer?<br>
+            Do you want a web page to be made? <br>
+            If you want to talk to me please feel free to contact me!<br>
+            You can reach me at andyyoon814@gmail.com <br>
+            Or simply use this form<br>
+            Powered by Formspree.io!
+          </p>
         </div>
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+        <!-- Right side of actual form-->
+        <form class="col s12 m6 offset-m1" action="https://formspree.io/andyyoon814@gmail.com" method="POST">
+          <div class="row">        
+            <div class="input-field col s12">
+              <input type="email" class="validate" name="_replyto" required="">
+              <label for="email" data-error="Invalid email address">Email</label>
+            </div>
+            <div class="input-field col s12">
+              <input  type="text" class="validate" name="name" required="">
+              <label for="firstname">Name</label>
+            </div>
+            <div class="input-field col s12">
+              <textarea id="textarea1" class="materialize-textarea" name="message"></textarea>
+              <label for="textarea1">Email Body</label>
+            </div>
           </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          <div class="input-field col s9">
+            <input type="submit" value="Send" >
           </div>
-        </div>
+        </form>
+
       </div>
-
     </div>
-    <br><br>
+  </section>
 
-    <div class="section">
-
-    </div>
-  </div>
-
-  <footer class="page-footer teal">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
