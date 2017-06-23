@@ -12,55 +12,57 @@
    <link href="css/side.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 
-  <body>
+  <body class="grey">
 
-      <!-- Fixed Header-->
-    <div class="navbar-fixed">
-      <nav>
+    <!--Header-->
+    <div class="navbar">
+      <nav class="blue darken-1">
         <div class="nav-wrapper container">
 
-          <!-- Name and Hamburger -->
-          <a href="#!" class="brand-logo">Andrew Yoon</a>
-          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-
-          <!-- Right Side menu -->
-          <ul class="right hide-on-med-and-down">
-            <li><a href="sass.html">About Me</a></li>
-            <li><a href="badges.html">Education</a></li>
-            <li><a href="collapsible.html">Projects</a></li>
+          <!-- Right Side -->
+          <ul class="right">
+            <li>        
+                <div>
+                    <a href="pdf/resume.pdf" target="_blank" id="download-button" class="btn waves-effect waves-light z-depth-5 blue darken-4">Download Resume</a>
+                    <a href="" target="_blank" id="download-button" class="btn waves-effect waves-light z-depth-5 blue darken-4">Contact Me</a>
+                </div>
+            </li>
           </ul>
 
-          <!-- Mobile side nav-->
-          <ul class="side-nav" id="mobile-demo">
-            <li><a href="sass.html">About Me</a></li>
-            <li><a href="badges.html">Education</a></li>
-            <li><a href="collapsible.html">Projects</a></li>
-          </ul>
         </div>
       </nav>
     </div>
 
+    <!-- Picture Area -->
+    <div class="blue darken-2 section no-pad-bot" id="index-banner">
 
-    <div class="section no-pad-bot" id="index-banner">
-      <div class="container s4 m4 l4">
+        <!-- Picture Area -->
+        <div class="container s12 m12 l12">
 
-        <h1 class="header center light">Welcome!</h1>
+            <h2 class="header center bold white-text">Andrew Yoon</h2>
 
-        <div class="row center">
-          <div class="col s4 m4 l4 offset-s4 offset-m4 offset-l4">
-            <img src="images/prof.jpg"class="center-align circle responsive-img"> 
+            <!-- Picture -->         
+            <div class="row center">
+              <div class="col s4 m4 l4 offset-s4 offset-m4 offset-l4">
+                <img src="images/prof.jpg"class="center-align circle responsive-img"> 
+              </div>
+            </div>
+
+        </div>
+
+
+        <!-- Introduction Area -->
+        <div class="blue darken-3 row center">
+        <br>
+        <div class="container s7 m7 l7">
+          <p class="flow-text white-text">
+          Hi! My name is Andrew Yoon and I'm 20 years old!
+          I graduated from Rutgers-New Brunswick with a Bachelors Degree in Computer Science in December or 2016!
+          Currently, I am studying Chinese at Jiangsu Normal University in Xuzhou, China.
+          </p>
           </div>
         </div>
 
-        <div class="row center">
-          <h5 class="header col s12 light">My name is Andrew Yoon and welcome to my interactive resume! <br> Scroll down to learn a little bit more about me!<br> This site is still under construction.</h5>
-        </div>
-        <div class="row center">
-          <a href="pdf/resume.pdf" target="_blank" id="download-button" class="btn-large waves-effect waves-light z-depth-5 red accent-4">Download Resume</a>
-        </div>
-        <br><br>
-
-      </div>
     </div>
 
 
@@ -109,10 +111,10 @@
 
 
   <!-- Footer -->
-  <footer class="page-footer red accent-4" id="footHolder">
+  <footer class="page-footer blue darken-2" id="footHolder">
 
   <!-- FormSpree.io contact form-->
-  <section id="resources" class="valign-wrapper red accent-2">
+  <section id="resources" class="valign-wrapper blue darken-1">
 
     <!-- Left side for contact info and text-->
     <br>
@@ -121,10 +123,10 @@
         <div class="col s12 m5">
           <div class="row">
             <div class="col s10 m9">
-              <h5>Contact Me!</h5>
+              <h5 class="white-text">Contact Me!</h5>
             </div>
           </div>
-          <p>
+          <p class="white-text">
             Do you have a possible job offer?<br>
             Do you want a web page to be made? <br>
             If you want to talk to me please feel free to contact me!<br>
@@ -139,19 +141,19 @@
           <div class="row">        
             <div class="input-field col s12">
               <input type="email" class="validate" name="_replyto" required="">
-              <label for="email" data-error="Invalid email address">Email</label>
+              <label class="white-text" for="email" data-error="Invalid email address">Email</label>
             </div>
             <div class="input-field col s12">
               <input  type="text" class="validate" name="name" required="">
-              <label for="firstname">Name</label>
+              <label class="white-text"for="firstname">Name</label>
             </div>
             <div class="input-field col s12">
               <textarea id="textarea1" class="materialize-textarea" name="message"></textarea>
-              <label for="textarea1">Email Body</label>
+              <label class="white-text" for="textarea1">Email Body</label>
             </div>
           </div>
-          <div class="input-field col s9">
-            <input class="btn-large waves-effect waves-light z-depth-5 red accent-4" type="submit" value="Send" >
+          <div class="input-field col s12 center">
+            <input class="btn-large waves-effect waves-light z-depth-5 blue darken-4 center" type="submit" value="Send" >
           </div>
         </form>
 
@@ -159,34 +161,6 @@
     </div>
   </section>
 
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">About Me</h5>
-          <p class="grey-text text-lighten-4">I am a Rutgers-New Brunswick graduate who received his Bachelors degree in Computer Science and minor in Economics. I enjoy programming and solving problems via the skills i've learned in school. This site is to show prospective employers (and anyone else) my resume and some of the work I have done up till this point. I hope you learned more about me while viewing my work and writings! As always, please feel free to contact me!</p>
-
-
-        </div>
-        <div class="col l3 m6 s6">
-          <h5 class="white-text">Site Contents</h5>
-          <ul>
-            <li><a class="white-text" href="#!" onClick="alert('Hello World!')">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 m6 s6">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
     <div class="footer-copyright">
       <div class="container">
       Made using <a class="red-text text-lighten-1" href="http://materializecss.com">Materialize</a>
@@ -199,9 +173,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-  <script type="text/javascript">
-  $(".button-collapse").sideNav();
-  </script>
+ 
 
   </body>
 </html>
