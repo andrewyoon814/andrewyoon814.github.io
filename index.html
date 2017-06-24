@@ -12,53 +12,67 @@
    <link href="css/side.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 
-  <body class="grey">
+  <body class="grey lighten-4">
 
     <!--Header-->
-    <div class="navbar">
-      <nav class="blue darken-1">
+    <div class="navbar-fixed">
+      <nav class="deep-orange">
         <div class="nav-wrapper container">
 
-          <!-- Right Side -->
-          <ul class="right">
-            <li>        
-                <div>
-                    <a href="pdf/resume.pdf" target="_blank" id="download-button" class="btn waves-effect waves-light z-depth-5 blue darken-4">Download Resume</a>
-                    <a href="" target="_blank" id="download-button" class="btn waves-effect waves-light z-depth-5 blue darken-4">Contact Me</a>
-                </div>
-            </li>
-          </ul>
+            <a href="#" id= "toTopFunction" class="brand-logo hide-on-med-and-down">Andrew Yoon</a>
+
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+            <!-- Right Links -->
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Experiences</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
 
         </div>
       </nav>
     </div>
 
-    <!-- Picture Area -->
-    <div class="blue darken-2 section no-pad-bot" id="index-banner">
+    <!-- Mobile Header Hamburger Slide Out --> 
+    <ul class="side-nav" id="mobile-demo">
+        <li><a href="#" class="center">Education</a></li> 
+        <li><a href="#" class="center">Experiences</a></li>
+        <li><a href="#" class="center">Skills</a></li>
+        <li><a href="#" class="center">Portfolio</a></li>
+        <li><a href="#" class="center">Contact</a></li>
+    </ul>
 
-        <!-- Picture Area -->
+
+    <!-- Picture Area -->
+    <div class="deep-orange accent-3 section no-pad-bot" id="index-banner">
+
         <div class="container s12 m12 l12">
 
             <h2 class="header center bold white-text">Andrew Yoon</h2>
 
-            <!-- Picture -->         
+            <!-- Picture in Circle Frame-->         
             <div class="row center">
               <div class="col s4 m4 l4 offset-s4 offset-m4 offset-l4">
                 <img src="images/prof.jpg"class="center-align circle responsive-img"> 
               </div>
             </div>
 
+            <h4 class="header center white-text">Software Developer</h4>
+
         </div>
 
 
-        <!-- Introduction Area -->
-        <div class="blue darken-3 row center">
+        <!-- Brief Introduction Area -->
+        <div class="deep-orange accent-4 row center">
         <br>
         <div class="container s7 m7 l7">
           <p class="flow-text white-text">
           Hi! My name is Andrew Yoon and I'm 20 years old!
-          I graduated from Rutgers-New Brunswick with a Bachelors Degree in Computer Science in December or 2016!
-          Currently, I am studying Chinese at Jiangsu Normal University in Xuzhou, China.
+          I graduated from Rutgers-New Brunswick with a Bachelors Degree in Computer Science in December of 2016!
+          Currently, I am studying Chinese at Jiangsu Normal University in Xuzhou, China. Scroll down to learn more about me!!
           </p>
           </div>
         </div>
@@ -66,55 +80,108 @@
     </div>
 
 
-    <div class="container">
-      <div class="section">
+     <div class="education">
+        <div class="col s10 m10 l10 offset-s1 offset-m1 offset-l1">
+            <div class="card orange darken-1">
+                <div class="card-content white-text">
+                  <span class="card-title center-align">Education</span>
+                  
+                  <p>I am a very simple card. I am good at containing small bits of information.
+                  I am convenient because I require little markup to use effectively.
+                  </p>
 
-        <!--   Icon Section   -->
-        <div class="row">
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center light-blue-text"><i class="material-icons">person</i></h2>
-              <div class="row center">
-                <a class="waves-effect waves-light btn">About Me</a>
-              </div>
-              <p class="light">Learn more about me! Where am I currently? What am I doing?</p>
+                </div>
+
+            <div class="card-tabs">
+              <ul class="tabs tabs-fixed-width">
+                <li class="tab"><a class="active" href="#rutgers">Rutgers University-New Brunswick</a></li>
+                <li class="tab"><a href="#china">Jiangsu Normal University</a></li>
+              </ul>
             </div>
-          </div>
 
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center light-blue-text"><i class="material-icons">school</i></h2>
-              <div class="row center">
-                <a class="waves-effect waves-light btn">Education</a>
-              </div>
-              <p class="light">A little more in-depth information about my years and accomplishments and Rutgers.</p>
+            <div class="card-content grey lighten-4">
+              <div id="rutgers">Test 1</div>
+              <div id="china">Test 2</div>
             </div>
-          </div>
 
-          <div class="col s12 m4">
-            <div class="icon-block">
-              <h2 class="center light-blue-text"><i class="material-icons">code</i></h2>
-              <div class="row center">
-                <a class="waves-effect waves-light btn">Code</a>
-              </div>
-
-              <p class="light">What skills I have related to code and some of the works i've done in school and out.</p>
-            </div>
           </div>
         </div>
-
       </div>
-      <br><br>
-    </div>
+
+
+    <div class="row">
+        <div class="col s10 m10 l10 offset-s1 offset-m1 offset-l1">
+            <div class="card orange darken-1">
+                <div class="card-content white-text">
+                  <span class="card-title center-align">Experiences</span>
+                  
+                  <p>I am a very simple card. I am good at containing small bits of information.
+                  I am convenient because I require little markup to use effectively.
+                  </p>
+
+                </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s10 m10 l10 offset-s1 offset-m1 offset-l1">
+            <div class="card orange darken-1">
+                <div class="card-content white-text">
+                  <span class="card-title center-align">Skills</span>
+                  
+                  <p>I am a very simple card. I am good at containing small bits of information.
+                  I am convenient because I require little markup to use effectively.
+                  </p>
+
+                </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s10 m10 l10 offset-s1 offset-m1 offset-l1">
+            <div class="card orange darken-1">
+                <div class="card-content white-text">
+                  <span class="card-title center-align">Portfolio</span>
+                  
+                  <p>I am a very simple card. I am good at containing small bits of information.
+                  I am convenient because I require little markup to use effectively.
+                  </p>
+
+                </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s10 m10 l10 offset-s1 offset-m1 offset-l1">
+            <div class="card orange darken-1">
+                <div class="card-content white-text">
+                  <span class="card-title center-align">Contact</span>
+                  
+                  <p>I am a very simple card. I am good at containing small bits of information.
+                  I am convenient because I require little markup to use effectively.
+                  </p>
+
+                </div>
+
+          </div>
+        </div>
+      </div>
+
 
   </body>
 
 
   <!-- Footer -->
-  <footer class="page-footer blue darken-2" id="footHolder">
+  <footer class="page-footer deep-orange accent-4" id="footHolder">
 
   <!-- FormSpree.io contact form-->
-  <section id="resources" class="valign-wrapper blue darken-1">
+  <section id="resources" class="valign-wrapper deep-orange accent-3">
 
     <!-- Left side for contact info and text-->
     <br>
@@ -123,7 +190,7 @@
         <div class="col s12 m5">
           <div class="row">
             <div class="col s10 m9">
-              <h5 class="white-text">Contact Me!</h5>
+              <h3 class="white-text">Contact Me!</h3>
             </div>
           </div>
           <p class="white-text">
@@ -163,7 +230,7 @@
 
     <div class="footer-copyright">
       <div class="container">
-      Made using <a class="red-text text-lighten-1" href="http://materializecss.com">Materialize</a>
+      Made using <a class="blue-text" href="http://materializecss.com">Materialize</a>
       </div>
     </div>
   </footer>
@@ -173,6 +240,24 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+
+  <script type="text/javascript">
+      
+    // Mobile Side Nav Collapse Function
+    $( document ).ready(function(){
+        $(".button-collapse").sideNav(
+            edge: 'right', // Choose the horizontal origin
+            closeOnClick: true,
+        );
+    });
+
+    $("#toTopFunction").on("click", function() {
+        $("body").scrollTop(0);
+    });
+
+    
+
+  </script>
  
 
   </body>
